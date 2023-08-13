@@ -1,11 +1,43 @@
 body{
-    background-image: url("images/bg\ image.png");
+    background-image: url("images/1213735.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+hr{
+  width:100%;
+  height:0.05em;
+  background-color: rgba(255, 255,255,0.1);
 }
 .container {
     opacity: 0.30;
     cursor: pointer;
   }
-  
+  .topbar{
+    padding: 0.7em;
+    display: flex;
+    justify-content:space-between;
+  }
+  .logo{
+    display: flex;
+  }
+.logo img{
+  height: 5em;
+  width: 5em;
+}
+.logo h3{
+  font-family: K2D;
+  font-size:x-large;
+  align-items: center;
+  color: white;
+}
+.home{
+  padding:0.4em;
+  border-radius: 10%;
+}
+.home img{
+  height:3em;
+  width: auto;
+}
   .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
