@@ -11,31 +11,52 @@ hr{
 .container {
     opacity: 0.30;
     cursor: pointer;
+    background-color: rgba(255, 255,255,0.3);
+    padding: 7px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
   }
   .topbar{
     padding: 0.7em;
     display: flex;
+    align-items: center;
     justify-content:space-between;
   }
   .logo{
     display: flex;
+    border-radius: 20px;
+    align-items: center;
+    background-color: rgba(255, 255,255,0.1);
+    padding:6px;
   }
 .logo img{
-  height: 5em;
+  height: 5em;                  
   width: 5em;
+  border-radius: 40%;
+  padding:5px;
 }
 .logo h3{
   font-family: K2D;
   font-size:x-large;
+  font-weight: 100;
+  justify-content: center;
   align-items: center;
   color: white;
+  padding:6px;
 }
 .home{
-  padding:0.4em;
+  /* padding:5px; */
+  width: fit-content;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10%;
+  background-color: rgba(255, 255,255,0.1);
 }
 .home img{
-  height:3em;
+  height:50px;
   width: auto;
 }
   .bar1, .bar2, .bar3 {
