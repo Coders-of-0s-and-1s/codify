@@ -2,8 +2,9 @@ body{
     background-image: url("images/1213735.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
-hr{
+.hr{
   width:100%;
   height:0.05em;
   background-color: rgba(255, 255,255,0.1);
@@ -46,7 +47,7 @@ hr{
   padding:6px;
 }
 .home{
-  /* padding:5px; */
+  padding:5px;
   width: fit-content;
   height: 55px;
   display: flex;
@@ -56,7 +57,7 @@ hr{
   background-color: rgba(255, 255,255,0.1);
 }
 .home img{
-  height:50px;
+  height: 40px;
   width: auto;
 }
   .bar1, .bar2, .bar3 {
@@ -67,7 +68,6 @@ hr{
     margin: 6px 0;
     transition: 0.4s;
   }
-  
   .change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
   }
@@ -76,3 +76,64 @@ hr{
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
+.mainbody{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+.newsbox{
+  width: 97%;
+  margin:10px;
+  aspect-ratio: 1/0.18 ;
+  max-height: 100px;
+  max-width: 900px;
+  display: flex;
+  border-radius: 10px;
+  background-color: rgba(255, 255,255,0.1);
+}
+.newsimg{
+  background-color: whitesmoke;
+  aspect-ratio: 1/1;
+  height: 80%;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+}
+#news{
+  color:white;
+  font-family: K2D;
+  margin:15px;
+  font-size: large;
+}
+.vr{
+  margin: auto;
+  height:90%;
+  width:0.1%;
+  background-color: white;
+}
+.newsctrl{
+  width: 30%;
+  aspect-ratio: 1/0.2 ;
+  max-height: 100px;
+  max-width: 150px;
+  border-radius: 20px;
+  background-color: rgba(255, 255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: K2D;
+  font-size: small;
+}
+.newsctrl p{
+  padding:0 10px;
+}
+.arrow{
+  margin: auto;
+  height:50%;
+  width: auto;
+}
