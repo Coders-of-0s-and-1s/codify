@@ -106,12 +106,12 @@ body{
 #news{
   color:white;
   font-family: K2D;
-  margin:15px;
+  margin-left: 20px;
   font-size: large;
 }
 .vr{
   margin: auto;
-  height:90%;
+  height:90%;     
   width:0.1%;
   background-color: white;
 }
