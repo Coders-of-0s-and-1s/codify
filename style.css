@@ -1,7 +1,7 @@
 body{
     background-image: url("images/1213735.png");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
 }
 .hr{
