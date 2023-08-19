@@ -15,4 +15,4 @@ function nextnews(a){
   } 
   document.getElementById("news").innerHTML=news[i];
 }
-news.unshit('Reply how this website is in the Codify WhatsApp group')
+news.push('Reply how this website is in the Codify WhatsApp group')
