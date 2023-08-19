@@ -143,3 +143,47 @@ background-repeat: repeat-y;
 .arrow:hover{
   cursor:pointer;
 }
+.fzone img{
+  display: none;
+}
+.szone img{
+  display: none;
+}
+@media only screen and (max-width:600px){
+  .fzone{
+    margin:50px;
+    height:100px;
+    width:80%;
+    display: flex;
+    background-color: rgba(255, 255,255,0.1);
+    border-radius: 10px;
+    color:white;
+    font-family:K2D;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .fzone img{
+    display: block;
+  }
+  .szone img{
+    display: block;
+  }
+  .szone{
+    margin:5px;
+    height:100px;
+    width:80%;
+    display: flex;
+    background-color: rgba(255, 255,255,0.1);
+    border-radius: 10px;
+    color:white;
+    font-family:K2D;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+
