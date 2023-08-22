@@ -8,11 +8,10 @@ function nextnews(a){
   i=i+a; 
   if (i==news.length){
     i=0;
-    console.log(i);
   }
   else if (i<0){
     i=news.length -1;
   } 
   document.getElementById("news").innerHTML=news[i];
 }
-news.push('Reply how this website is in the Codify WhatsApp group.')
+news.push('Reply how this website is in the Codify WhatsApp group.');

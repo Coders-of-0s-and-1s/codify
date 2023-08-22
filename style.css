@@ -164,6 +164,7 @@ background-repeat: repeat-y;
     color:white;
     font-family:K2D;
     font-size: x-large;
+    text-decoration: none;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
