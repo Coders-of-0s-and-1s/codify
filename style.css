@@ -213,6 +213,9 @@ background-repeat: repeat-y;
     color: white;
     font-family: K2D;
   }
+  .bottombar a{
+    text-decoration: none;
+  }
 }
 
 
