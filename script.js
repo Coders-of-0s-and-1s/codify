@@ -14,5 +14,5 @@ function nextnews(a){
   } 
   document.getElementById("news").innerHTML=news[i];
 }
-news.unshift("Yep! INDIA has successfully landed on the south pole of the moon")
+news.unshift("Yep! INDIA has successfully landed on the south pole of the moon");
 
