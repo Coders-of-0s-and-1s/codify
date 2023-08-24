@@ -14,4 +14,5 @@ function nextnews(a){
   } 
   document.getElementById("news").innerHTML=news[i];
 }
-news.push('Reply how this website is in the Codify WhatsApp group.');
+news.unshift("Yep! INDIA has successfully landed on the south pole of the moon")
+
