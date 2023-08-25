@@ -1,0 +1,14 @@
+.hidebox{
+    height:100%;
+    padding:20px;
+    min-height: 200px;
+    width: 80%;
+    background-color: rgba(255, 255,255,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    margin:10%;
+    font-family: K2D;
+    color:rgba(231, 14, 220, 0.829);
+}

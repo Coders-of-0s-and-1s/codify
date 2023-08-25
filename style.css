@@ -155,28 +155,35 @@ background-repeat: repeat-y;
 }
 @media only screen and (max-width:600px){
   .fzone{
+    text-decoration: none;
     margin:25px;
     height:100px;
     width:80%;
-    display: flex;
+    display:flex;
     background-color: rgba(255, 255,255,0.1);
     border-radius: 10px;
     color:white;
     font-family:K2D;
     font-size: x-large;
     text-decoration: none;
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
   }
   .fzone img{
     display: block;
+  }
+  .fzone:hover{
+      cursor:pointer;
+  }
+  .szone:hover{
+    cursor:pointer;
   }
   .szone img{
     display: block;
   }
   .szone{
     margin:25px;
+    text-decoration: none;
     height:100px;
     width:80%;
     display: flex;
