@@ -3,6 +3,7 @@ function myFunction(x) {
   }
 var i=0;
 let news=['This webpage is decided to be published on september 3 as the event of "Nithish Kumar" birthday.','I appreciate everyone who involved in this project.'];
+news.unshift("Yep! INDIA has successfully landed on the south pole of the moon");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
@@ -14,4 +15,5 @@ function nextnews(a){
   } 
   document.getElementById("news").innerHTML=news[i];
 }
-news.push('Reply how this website is in the Codify WhatsApp group.');
+
+
