@@ -22,12 +22,33 @@
         <span class="home"><a href="index.html"><img src="images/IcRoundHome 1.svg" alt="home icon"></a></span>
     </nav>
     <hr class="hr">
-    <div class="feedbackbody">
+    <form class="feedbackbody" name="submit-to-google-sheet">
         <h3>FEEDBACK</h3>
-        <textarea name="feedback" id="finput"></textarea>    
-</div>
+        <textarea name="FEEDBACK" id="finput" placeholder="ENTER YOUR FEEDBACK HERE............"></textarea>    
+        <button id="fsubmit" type="submit" onclick="submit()">SUBMIT</button>
+      </form>
 
-<button id="fsubmit" type="submit" onclick="submit()">SUBMIT</button>
+
 </body>
-<script src="feedback.js"></script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxa3kP0rM4za9SUUzOG6o_kDSp0x0TJ3IZS1cf4y6753yIHKILdpkIzTMao7vayVe34/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+  let a="";
+function submit(){
+    let a=document.getElementById("finput").value;
+    if (a){
+      alert("Thank you for your feedback");
+        document.getElementById("finput").value="";
+        document.getElementById("fsubmit").innerHTML="SUMITTED";
+    }
+}
+
+</script>
 </html>
