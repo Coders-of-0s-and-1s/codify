@@ -1,6 +1,19 @@
 function myFunction(x) {
     x.classList.toggle("change");
+    // let y=document.getElementById("menu");
+    // let z=document.getElementById("mainbody");
+    // if (y.style.display=="flex")
+    // {
+    //   y.style.display="none";
+    //   document.getElementById("bottombar").style.display="flex";
+    //   z.style.display="flex";
+    // }
+    // else{
+    //   z.style.display="none";
+    //   document.getElementById("bottombar").style.display="none";
+    //   y.style.display="flex";
+    // }
   }
-let about="Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, sapiente odit. Laboriosam iusto alias consequatur dicta, officia repellat quia ab illum fuga aspernatur provident id accusantium non possimus veniam quod?";
+let about="";
 document.getElementById("aboutb").innerHTML=about;
-confirm ("Danger zone press ok to continue");
+alert("Danger zone press ok to continue");
