@@ -224,13 +224,12 @@ background-repeat: repeat-y;
     text-decoration: none;
   }
 }
-/* 
 
-#menu 
+
+.menu 
 {
-  display:none;
-  z-index: -100;
-  position: relative;
+  z-index: 98;
+  display: none;
   flex-direction: column;
   height: 50vh;
   width: 40%;
@@ -239,22 +238,21 @@ background-repeat: repeat-y;
   margin: 10px;
   justify-content: space-around;
   border-radius: 20px;
+  transition: 200;
 }
 
-#menu button
+.menu a
 {
  padding: 10px;
+ background-color: rgba( 255, 255, 255,0.4);
  font-size: larger;
  border: none;
 border-radius:10px ;
-}
-#menu a:hover{
-  font-family: K2D;
+font-family: K2D;
   text-decoration: none;
   color:rgb(0, 0, 0);
 }
-#menu a{
-  font-family: K2D;
-  text-decoration: none;
-  color:rgb(0, 0, 0);
-} */
+
+.change1{
+  display: flex;
+}
