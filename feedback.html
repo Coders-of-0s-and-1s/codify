@@ -21,6 +21,13 @@
           </span>
         <span class="home"><a href="index.html"><img src="images/IcRoundHome 1.svg" alt="home icon"></a></span>
     </nav>
+    <nav class="menu">
+      <a href="" target="_blank">BUNKER</a>
+      <a target="_blank" href="https://psgtech.examly.io/login">GO TO EXAMLY</a>
+      <a target="_blank" href="https://ecampus.psgtech.ac.in/studzone2/AttWfStudMenu.aspx">GO TO ECAMPUS</a>
+      <a target="_blank" href="https://www.psgtech.edu/">GO TO PSG WEBSITE</a>
+      <!-- <a href=""></a> -->
+     </nav>
     <hr class="hr">
     <form class="feedbackbody" name="submit-to-google-sheet">
         <h3>FEEDBACK</h3>
@@ -40,7 +47,11 @@
       .then(response => console.log('Success!', response))
       .catch(error => console.error('Error!', error.message))
   })
-  
+  function myFunction(x) {
+    x.classList.toggle("change");
+    const mbtn=document.querySelector(".menu");
+    mbtn.classList.toggle("change1");
+  }
 
 </script>
 </html>

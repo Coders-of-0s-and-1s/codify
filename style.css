@@ -234,11 +234,11 @@ background-repeat: repeat-y;
   height: 50vh;
   width: 40%;
   background-color: rgba( 255, 255, 255,0.4);
-  padding: 40px;
+  padding: 30px;
   margin: 10px;
   justify-content: space-around;
   border-radius: 20px;
-  transition: 200;
+  transition: ease-in-out;
 }
 
 .menu a
@@ -248,6 +248,7 @@ background-repeat: repeat-y;
  font-size: larger;
  border: none;
 border-radius:10px ;
+text-align: center;
 font-family: K2D;
   text-decoration: none;
   color:rgb(0, 0, 0);

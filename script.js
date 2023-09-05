@@ -4,7 +4,7 @@ function myFunction(x) {
     mbtn.classList.toggle("change1");
   }
 var i=0;
-let news=['This webpage is decided to be published on september 3 as the event of "Nithish Kumar" birthday.','I appreciate everyone who involved in this project.'];
+let news=['INDIA won NEPAL by 10 wickets.','SpaceX successfully launched '];
 news.unshift("Yep! INDIA has successfully landed on the south pole of the moon");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
@@ -16,6 +16,6 @@ function nextnews(a){
     i=news.length -1;
   } 
   document.getElementById("news").innerHTML=news[i];
+  
 }
-
 
