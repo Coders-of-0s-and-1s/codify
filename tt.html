@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODIFY</title>
+    <link href='https://fonts.googleapis.com/css?family=K2D' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="topbar">
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          
+          <span class="logo">
+            <img src="images/CODIFY.png" alt="Logo image here">
+            <h3>CODIFY</h3>
+          </span>
+        <span class="home"><a href="index.html"><img src="images/IcRoundHome 1.svg" alt="home icon"></a></span>
+    </nav>
+    <nav class="menu">
+      <a href="https://bunker-api.vercel.app/" target="_blank">BUNKER</a>
+      <a target="_blank" href="https://psgtech.examly.io/login">GO TO EXAMLY</a>
+      <a target="_blank" href="https://ecampus.psgtech.ac.in/studzone2/AttWfStudMenu.aspx">GO TO ECAMPUS</a>
+      <a target="_blank" href="https://www.psgtech.edu/">GO TO PSG WEBSITE</a>
+      <a href="tt.html">Time Table</a>
+     </nav>
+    <hr class="hr">
+    <style>
+        .tt{
+            font-family: K2D;
+            font-size: large;
+            color: whitesmoke;
+            text-align: center;
+            overflow-x: scroll;
+        }
+        .body{
+            flex-wrap: nowrap;
+        }
+    </style>
+    <table border='1' class="tt">
+        <tr>
+           <td>Day</td>
+           <td>1</td>
+           <td>2</td>
+           <td>3</td>
+           <td>4</td>
+           <td>5</td>
+           <td>6</td>
+           <td>7</td>
+        </tr>
+        <tr>
+           <td>Monday</td>
+           <td>LIB</td>
+           <td>19L303-DE</td>
+           <td>19L305-DSA</td>
+           <td>19L301-LANA</td>
+           <td>19L303-DE</td>
+           <td>LIB</td>
+           <td>19L304-EMF</td>
+        </tr>
+        <tr>
+           <td>Tuesday</td>
+           <td>19L301-LANA</td>
+           <td>19L303-DE</td>
+           <td>19L304-EMF</td>
+           <td>TWM</td>
+           <td>19L305-DSA</td>
+           <td>19L305-DSA</td>
+        </tr>
+        <tr>
+           <td>Wednesday</td>
+           <td>19O306-Economics</td>
+           <td>19L310/19L311-Lab</td>
+           <td>19L310/19L311-Lab</td>
+           <td>LIB</td>
+           <td>19L302-AE</td>
+           <td>19L301-LANA</td>
+        </tr>
+        <tr>
+           <td>Thursday</td>
+           <td>19L304-EMF</td>
+           <td>19O306-Economics</td>
+           <td>19L302-AE</td>
+           <td>19L303-DE</td>
+           <td>19K312-EVS</td>
+           <td>19K312-EVS</td>
+        </tr>
+        <tr>
+           <td>Friday</td>
+           <td>19L305-DSA</td>
+           <td>19L301-LANA</td>
+           <td>19L304-EMF</td>
+           <td>19O306-Economics</td>
+           <td>19L310/19L311-Lab</td>
+           <td>19L310/19L311-Lab</td>
+        </tr>
+      </table>
+</body>
+<script>
+        function myFunction(x) {
+    x.classList.toggle("change");
+    const mbtn=document.querySelector(".menu");
+    mbtn.classList.toggle("change1");
+  }
+</script>
+</html>
