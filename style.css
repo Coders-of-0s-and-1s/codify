@@ -4,6 +4,7 @@ body{
     background-repeat: repeat-y;
     background-size: cover;
 background-repeat: repeat-y;
+overflow: hidden;
 }
 .hr{
   width:100%;

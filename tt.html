@@ -35,13 +35,17 @@
             font-size: large;
             color: whitesmoke;
             text-align: center;
-            overflow-x: scroll;
+            overflow: scroll;
         }
-        .body{
-            flex-wrap: nowrap;
+        .tt table{
+            border: 1px solid whitesmoke;
+        }
+        .tt::-webkit-scrollbar{
+            display: none;
         }
     </style>
-    <table border='1' class="tt">
+    <div class="tt">
+    <table border='1' >
         <tr>
            <td>Day</td>
            <td>1</td>
@@ -99,6 +103,7 @@
            <td>19L310/19L311-Lab</td>
         </tr>
       </table>
+    </div>
 </body>
 <script>
         function myFunction(x) {
