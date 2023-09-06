@@ -1,8 +1,8 @@
 .subject{
     padding: 20px;
     width:150px;
-    height: fit-content;
     border-radius: 20px;
+    height: max-content;
     text-decoration: none;
     margin: 10px;
     aspect-ratio: 1/1;
@@ -13,7 +13,7 @@
 }
 .main{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     flex-wrap: wrap;
 }
 .szonetop{
