@@ -6,6 +6,7 @@ function myFunction(x) {
 var i=0;
 let news=['INDIA won NEPAL by 10 wickets.','SpaceX successfully launched '];
 news.unshift("Yep! INDIA has successfully landed on the south pole of the moon");
+news.unshift("Radix by CVR happening tomorrow");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
