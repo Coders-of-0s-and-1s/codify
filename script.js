@@ -7,7 +7,7 @@ var i=0;
 let news=[];
 news.push("Radix by CVR happening tomorrow");
 news.push("NSS Inaguration tommorow @4.30pm Venue at F203, Be sure to check out");
-news.push("Monday 7th period is assinged as Analog Electronics.");
+news.push("Tuesday 7th period is assinged as Analog Electronics.");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
