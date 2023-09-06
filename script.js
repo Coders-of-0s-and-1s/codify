@@ -4,9 +4,10 @@ function myFunction(x) {
     mbtn.classList.toggle("change1");
   }
 var i=0;
-let news=['INDIA won NEPAL by 10 wickets.','SpaceX successfully launched '];
-news.unshift("Yep! INDIA has successfully landed on the south pole of the moon");
-news.unshift("Radix by CVR happening tomorrow");
+let news=[];
+news.push("Radix by CVR happening tomorrow");
+news.push("NSS Inaguration tommorow @4.30pm Venue at F203, Be sure to check out");
+news.push("Monday 7th period is assinged as Analog Electronics.");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
@@ -17,6 +18,5 @@ function nextnews(a){
     i=news.length -1;
   } 
   document.getElementById("news").innerHTML=news[i];
-  
 }
 
