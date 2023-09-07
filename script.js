@@ -5,9 +5,9 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
-news.push("Radix by CVR happening today.");
-news.push("NSS Inaguration today @4.30pm Venue at F203, Be sure to check out");
+news.push("Remainder : Maths homework due tomorrow");
 news.push("Tuesday 7th period is assinged as Analog Electronics.");
+news.push("Assessment tutorials for LANA and EMF on 13.08.2023");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
