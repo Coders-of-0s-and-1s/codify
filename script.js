@@ -5,6 +5,7 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
+news.push("Today 1st and 4th hour is Digital Electronics");
 news.push("Radix by CVR happening today.");
 news.push("NSS Inaguration today @4.30pm Venue at F203, Be sure to check out");
 news.push("Tuesday 7th period is assinged as Analog Electronics.");
