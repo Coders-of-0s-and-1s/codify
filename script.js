@@ -5,10 +5,9 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
-//news.push()
 news.push("Tuesday 7th period is assinged as Analog Electronics.");
 news.push("Assessment tutorials of LANA and EMF on 13.09.2023");
-news.push("Assessment tutorial of DSA on 14.09.2023 @ 8.30am");
+news.push("Assessment tutorial of DSA on 14.09.2023 at 8.30am");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
