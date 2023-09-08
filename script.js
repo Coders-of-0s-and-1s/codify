@@ -5,7 +5,7 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
-news.push("Remainder : Maths homework due tomorrow");
+news.push("Remainder : Maths homework due today");
 news.push("Tuesday 7th period is assinged as Analog Electronics.");
 news.push("Assessment tutorials for LANA and EMF on 13.08.2023");
 document.getElementById("news").innerHTML=news[i];
