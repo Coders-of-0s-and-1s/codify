@@ -20,6 +20,6 @@ function nextnews(a){
     i=news.length -1;
   } 
   document.getElementById("news").innerHTML=news[i];
-  setTimeout(nextnews, 4500,1);
+  setTimeout(nextnews, 4800,1);
 }
-setTimeout(nextnews,4700,1);
+setTimeout(nextnews,5000,1);
