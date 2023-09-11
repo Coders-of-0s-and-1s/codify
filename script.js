@@ -22,6 +22,6 @@ function nextnews(a){
     i=news.length -1;
   } 
   document.getElementById("news").innerHTML=news[i];
-  setTimeout(nextnews, 5000,1);
+  setTimeout(nextnews, 5200,1);
 }
-setTimeout(nextnews,5000,1);
+setTimeout(nextnews,5200,1);
