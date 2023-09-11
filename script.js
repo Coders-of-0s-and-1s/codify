@@ -5,8 +5,6 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
-news.unshift("Cheers to another trip around the sun! Keep shining. We are wishing you a happy birthday 'AISHWARYA'");
-news.push("Remainder...! Don't forget to write EMFW problems in tutorial note...!");
 news.push("Assessment tutorial of DSA on 14.09.2023 is cancelled");
 news.push("Vikram lander detected a first sign of earthquake in the south pole of moon .");
 news.push("Tuesday 7th period is assinged as Analog Electronics.");
