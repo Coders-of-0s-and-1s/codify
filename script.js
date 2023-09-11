@@ -5,6 +5,7 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
+news.unshift("Cheers to another trip around the sun! Keep shining. We are wishing you a happy birthday 'AISHWARYA'");
 news.unshift("Remainder...! Don't forget to write EMFW problems in tutorial note...!");
 news.push("Assessment tutorial of DSA on 14.09.2023 is cancelled");
 news.push("Monday first hour is EMF and the class starts at 8.45 am");
