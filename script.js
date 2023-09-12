@@ -7,7 +7,7 @@ var i=0;
 let news=[];
 news.push("Assessment tutorial of DSA on 14.09.2023 is cancelled");
 news.push("Vikram lander detected a first sign of earthquake in the south pole of moon .");
-news.push("Tuesday 7th period is assinged as Analog Electronics.");
+news.unshift("Today 7th is Analog electronics *Venue: J411*");
 news.push("Assessment tutorials of LANA and EMF on 13.09.2023");
 
 document.getElementById("news").innerHTML=news[i];
