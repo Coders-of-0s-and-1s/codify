@@ -5,10 +5,11 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
-news.push("G20 Summit kicks off today: Full schedule as world leaders meet at Delhi's Bharat Mandapam");
-news.push("Tuesday 7th period is assinged as Analog Electronics.");
+news.push("INDIA won Srilanka by 41 runs and got speed to final");
+news.push("Assessment tutorial of DSA on 14.09.2023 is cancelled");
+news.push("Vikram lander detected a first sign of earthquake in the south pole of moon .");
 news.push("Assessment tutorials of LANA and EMF on 13.09.2023");
-news.push("Assessment tutorial of DSA on 14.09.2023 at 8.30am");
+
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
@@ -19,6 +20,6 @@ function nextnews(a){
     i=news.length -1;
   } 
   document.getElementById("news").innerHTML=news[i];
-  setTimeout(nextnews, 4500,1);
+  //setTimeout(nextnews, 5200,1);
 }
-setTimeout(nextnews,4700,1);
+
