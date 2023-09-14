@@ -6,10 +6,11 @@ function myFunction(x) {
 var i=0;
 let news=[];
 news.unshift("Today RAMANUJAN ASSOCIATION OF MATHEMATICS going to conduct an event called CHRONOID, do attend, time: 4.30pm ,venue:J313,J314");
-news.push("INDIA won Srilanka by 41 runs and got speed to final");
+news.push("Engenius event by Student's Research Council at 4.30 pm today.Be sure to check out. Venue : J513,J514");
+
 news.push("Assessment tutorial of DSA on 14.09.2023 is cancelled");
-news.push("Vikram lander detected a first sign of earthquake in the south pole of moon .");
-news.push("Assessment tutorials of LANA and EMF on 13.09.2023");
+
+
 
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
