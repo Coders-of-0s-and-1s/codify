@@ -5,7 +5,7 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
-news.unshift("Happy Birthday Dharanesh");
+news.unshift("Happy Birthday Dharaneesh");
 news.push("23/09/2023 - there is a class on AE and DE,and may be there is a chance of EMF");
 
 document.getElementById("news").innerHTML=news[i];
