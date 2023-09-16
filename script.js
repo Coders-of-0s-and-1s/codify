@@ -5,7 +5,7 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
-news.unshift("May the joy that you have spread in the past come back to you on this day. Wishing you a very happy birthday Dharaneesh !");
+
 news.push("23/09/2023 - there is a class on AE and DE,and may be there is a chance of EMF.");
 news.push("Intermediate feedback entry is open now");
 
