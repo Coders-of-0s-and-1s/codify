@@ -7,7 +7,7 @@ var i=0;
 let news=[];
 
 news.push("23/09/2023 - there is a class on AE and DE,and may be there is a chance of EMF.");
-news.push("Intermediate feedback entry is open now");
+news.push("India won Sri Lanka by 10 wickets and claimed their 8th Asia Cup");
 news.unshift("Tuesday first hour will be Digital Electronics and second hour will be Linear Algebra.");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
