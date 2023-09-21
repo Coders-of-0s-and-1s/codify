@@ -7,7 +7,7 @@ var i=0;
 let news=[];
 
 news.push("23/09/2023 - there is a class on AE and DE,and may be there is a chance of EMF.");
-news.unshift("Today 7th hour is EMF");
+news.unshift("Today 7th hour is DE");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
