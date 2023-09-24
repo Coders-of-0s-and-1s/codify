@@ -9,6 +9,7 @@ let news=[];
 news.push("14/10/2023 GET READY FOR SHRISTI");
 news.unshift("Hurray! India becomes no 1 circket team in all three formats");
 news.unshift("CA test starts on Tuesday");
+news.unshift("Monday first period is EMF and the class starts at 8.30 am");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
