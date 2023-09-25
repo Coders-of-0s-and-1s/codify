@@ -8,7 +8,7 @@ let news=[];
 
 news.push("14/10/2023 GET READY FOR SHRISTI");
 news.push("INDIA won by 99 runs (DLS) against AUSTRALIA");
-news.unshift("Get ready folks!   CA test starts by tomorrow");
+news.unshift("Get ready folks!   CA test starts by tomorrow HALL DETAILS A320 from row 4 to 7");
 
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
