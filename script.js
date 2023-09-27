@@ -7,8 +7,8 @@ var i=0;
 let news=[];
 
 news.push("14/10/2023 GET READY FOR SHRISTI");
-
-news.unshift("Get ready folks!   CA test starts today HALL DETAILS A320 from row 4 to 7");
+news.push("HBD GOOGLE!");
+news.unshift("CA Test  HALL DETAILS A320 from row 4 to 7");
 
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
