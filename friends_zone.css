@@ -45,3 +45,18 @@ font-family: K2D;
 .change1{
   display: flex;
 }
+.intrams{
+  font-family: K2D;
+  font-size: x-large;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.intrams img{
+  height:auto;
+  width:90%;
+}
+
