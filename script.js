@@ -10,6 +10,7 @@ news.push("14/10/2023 GET READY FOR SHRISTI");
 news.unshift("INTRAMS...on the way.....");
 news.push("If you are interested in web development and want to contribute to CODIFY, You're welcome......");
 news.unshift("INTRAMS Schedule available on Friends zone do check it out....");
+news.unshift("INCENDIO by CVR Association wake up the Einstein in you.....");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
