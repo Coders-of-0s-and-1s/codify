@@ -7,7 +7,7 @@ var i=0;
 let news=[];
 
 news.push("14/10/2023 GET READY FOR SHRISTI");
-news.unshift("INTRAMS today....Join soon Get fun.....");
+
 news.push("If you are interested in web development and want to contribute to CODIFY, You're welcome......");
 news.unshift("INTRAMS Schedule available on Friends zone do check it out....");
 
