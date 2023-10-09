@@ -9,7 +9,6 @@ let news=[];
 news.push("14/10/2023 GET READY FOR SHRISTI");
 
 news.push("If you are interested in web development and want to contribute to CODIFY, You're welcome......");
-news.unshift("INTRAMS Schedule available on Friends zone do check it out....");
 
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
