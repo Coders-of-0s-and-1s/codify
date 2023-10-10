@@ -9,7 +9,7 @@ let news=[];
 news.push("14/10/2023 GET READY FOR SHRISTI");
 
 news.push("If you are interested in web development and want to contribute to CODIFY, You're welcome......");
-news.unshift("INDIA won AUSTRALIA by 6 wickets");
+
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
