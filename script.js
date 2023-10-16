@@ -6,9 +6,8 @@ function myFunction(x) {
 var i=0;
 let news=[];
 
-news.push("14/10/2023 GET READY FOR SHRISTI");
 
-news.push("If you are interested in web development and want to contribute to CODIFY, You're welcome......");
+news.push("DECIFIX event on 18.10.2023 @4:30  PM Venue : J313,J314");
 
 
 document.getElementById("news").innerHTML=news[i];
