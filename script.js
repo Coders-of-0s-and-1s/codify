@@ -8,7 +8,7 @@ let news=[];
 
 
 news.push("DECIFIX event on 18.10.2023 @4:30  PM Venue : J313,J314");
-news.unshift("Happy batch day makkale!");
+news.unshift("Feedback entry 2 is now available on ecampus");
 
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
