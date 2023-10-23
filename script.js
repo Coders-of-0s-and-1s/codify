@@ -9,6 +9,7 @@ let news=[];
 news.unshift("Feedback entry 2 is now available on ecampus");
 news.unshift("DSA assignment submission on Wednesday (DSA CA no questions only answers) ");
 
+news.unshift("Happy Autha pooja ");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
