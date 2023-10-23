@@ -7,7 +7,7 @@ var i=0;
 let news=[];
 
 news.unshift("Feedback entry 2 is now available on ecampus");
-news.unshift("DSA assignment submission on Wednesday (DSA CA questions with answers) ");
+news.unshift("DSA assignment submission on Wednesday (DSA CA no questions only answers) ");
 
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
