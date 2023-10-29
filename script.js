@@ -6,9 +6,6 @@ function myFunction(x) {
 var i=0;
 let news=[];
 
-news.unshift("Feedback entry 2 is now available on ecampus");
-news.unshift("DSA assignment submission on Tomorrow (DSA CA no questions only answers) ");
-
 news.unshift("EVS report submission postponed to Monday(30.10.23)");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
