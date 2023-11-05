@@ -6,8 +6,8 @@ function myFunction(x) {
 var i=0;
 let news=[];
 
-news.unshift("EVS report submission postponed to Monday(30.10.23)");
-news.unshift("INQUIZITION Event by IETE happening today, exciting prizes are awaiting");
+news.unshift("INDIA seals the semi final spot ");
+news.unshift("CA 2 test starts by Monday");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
