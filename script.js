@@ -8,6 +8,7 @@ let news=[];
 
 news.unshift("INDIA seals the semi final spot ");
 news.unshift("CA 2 test starts by Monday");
+news.unshift("<a href="#"> English class link </a>");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
