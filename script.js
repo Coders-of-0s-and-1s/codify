@@ -5,7 +5,7 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
-news.unshift("Diwali on 13.11.23");
+news.unshift("Diwali on 12.11.23");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
