@@ -5,10 +5,7 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
-
-news.unshift("INDIA seals the semi final spot ");
-news.unshift("CA 2 test starts by Monday");
-news.unshift("<a href="#"> English class link </a>");
+news.unshift("Diwali on 13.11.23");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
