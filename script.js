@@ -5,8 +5,8 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
-news.unshift("Let this Diwali brings enlightenment and happiness to ur life...../n Codify wishes all a Happy Diwali ");
-news.unshift("Happy Birthday Gokul!!!");
+news.unshift("Let this Diwali brings enlightenment and happiness to ur life..... Codify wishes all a Happy Diwali ");
+news.push("Happy Birthday Gokul!!!");
 
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
