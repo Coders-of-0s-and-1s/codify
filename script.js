@@ -7,7 +7,7 @@ var i=0;
 let news=[];
 
 news.unshift("DSA tutorial test tomorrow");
-news.unshift("Happy Birthday Nandhini Priya");
+news.unshift("Happy Birthday Nandini Priya");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
