@@ -6,8 +6,8 @@ function myFunction(x) {
 var i=0;
 let news=[];
 
-news.unshift("DSA tutorial test tomorrow");
-news.unshift("Happy Birthday Nandini Priya");
+news.unshift("DSA tutorial test today");
+news.unshift("Happy Children's day ");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
