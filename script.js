@@ -7,7 +7,7 @@ var i=0;
 let news=[];
 
 news.unshift("");
-news.unshift("No news yet");
+news.unshift("End semester feedback is open now");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
