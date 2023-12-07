@@ -8,6 +8,7 @@ let news=[];
 
 news.unshift("");
 news.unshift("End semester feedback is open now");
+news.unshift("Congrats to Jaiwant!! for his first prize in astro club");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
