@@ -7,7 +7,7 @@ var i=0;
 let news=[];
 
 news.unshift("");
-news.unshift("Merry Christmas!!");
+news.unshift("");
 news.unshift("");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
