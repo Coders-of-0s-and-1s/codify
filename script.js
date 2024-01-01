@@ -8,7 +8,7 @@ let news=[];
 
 news.unshift("");
 news.unshift("");
-news.unshift("");
+news.unshift("Welcome 2024 Happy Newyear to all");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
