@@ -8,6 +8,40 @@
     font-weight: 100;
     font-size: x-large;
 }
+#fbquote{
+  display: flex;
+
+}
+#fbquote img{
+  height:100px;
+  margin:5px;
+  width: auto;
+}
+#fbquote p{
+  color: rgba(255, 255, 255, 0.774);
+  text-align:left;
+  padding:10px;
+    font-family: K2D;
+    font-weight: 100;
+    font-size: large;
+}
+#fbquote:last-child{
+  color: rgba(255, 255, 255, 0.774);
+  text-align:left;
+  padding:10px;
+    font-family: K2D;
+    font-weight: 100;
+    font-size: large;
+}
+
+#fbquote{
+  height:auto;
+  min-height: 50px;
+  border-radius: 10px;
+  margin: auto;
+  width: 90%;
+  background: rgba(255, 255,255,0.1) ;
+}
 #finput{
     background-color: rgba(255, 255,255,0.1);
     color: white;
@@ -20,7 +54,7 @@
     text-align: initial;
     font-size: large;
     font-family: K2D;
-    border-radius: 20px;
+    border-radius: 15px;
     padding:5px;
     text-align: start;
 }
@@ -35,7 +69,7 @@
     font-family: K2D;
   font-size: larger;
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 .menu 
