@@ -5,8 +5,6 @@ function myFunction(x) {
   }
 var i=0;
 let news=[];
-news.push("
-G20 Summit kicks off today, Full schedule as world leaders meet at Delhi's Bharat Mandapam");
 news.push("Tuesday 7th period is assinged as Analog Electronics.");
 news.push("Assessment tutorials of LANA and EMF on 13.09.2023");
 news.push("Assessment tutorial of DSA on 14.09.2023 at 8.30am");
@@ -20,5 +18,6 @@ function nextnews(a){
     i=news.length -1;
   } 
   document.getElementById("news").innerHTML=news[i];
+  //setTimeout(nextnews, 5200,1);
 }
 

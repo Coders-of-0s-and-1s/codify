@@ -1,10 +1,11 @@
 .subject{
-    padding: 20px;
-    width:150px;
+    padding: 15px;
+    width:130px;
     border-radius: 20px;
     height: max-content;
     text-decoration: none;
-    margin: 10px;
+    text-align: center;
+    margin: 5px;
     aspect-ratio: 1/1;
     color: white;
     font-size:large;
@@ -40,7 +41,7 @@
   z-index: 98;
   display: none;
   flex-direction: column;
-  height: 50vh;
+  height: 60vh;
   width: 40%;
   background-color: rgba( 255, 255, 255,0.4);
   padding: 30px;
