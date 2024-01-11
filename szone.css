@@ -1,11 +1,11 @@
 .subject{
     padding: 15px;
-    width:130px;
+    width:150px;
     border-radius: 20px;
     height: max-content;
     text-decoration: none;
     text-align: center;
-    margin: 5px;
+    margin: 3px;
     aspect-ratio: 1/1;
     color: white;
     font-size:large;

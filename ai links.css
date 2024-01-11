@@ -1,0 +1,74 @@
+.AI
+    {
+        width: fit-content;
+        border-radius:30px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        color:aliceblue;
+        font-family: K2D;
+        height: 40px;
+        width: 150px;
+        margin-bottom: 15px;
+        background-color: rgba(255,255,255,0.3);
+    }
+
+    .Link
+    {
+        text-decoration: none;
+        color:aliceblue;
+        font-family: K2D;
+    }
+    
+.Heading
+    {
+        text-align: center;
+        color:aliceblue;
+        font-family: K2D;
+        background-color: rgba(255,255,255,0.3);
+        height: 40px;
+        width: max-content; 
+        min-width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: medium;
+        padding: 7px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+    }
+
+.AI_image
+    {
+        display:inline-block;
+        width: 30px;
+        padding-left: 8px;
+        object-fit :contain;
+    }
+
+.AI_image1
+    {
+        display: inline-block;
+        height: 30px;
+        padding-left: 15px;
+    }
+
+.AI_tool
+    {
+        padding-left: 10px;
+    }
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: medium;
+}
+
+.chatbox,.writing,.design,.presentation,.productivity{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
