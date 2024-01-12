@@ -2,10 +2,10 @@
     padding: 15px;
     width:150px;
     border-radius: 20px;
-    height: max-content;
+    height:200px;
     text-decoration: none;
     text-align: center;
-    margin: 3px;
+    margin: 5px auto;
     aspect-ratio: 1/1;
     color: white;
     font-size:large;
@@ -14,7 +14,7 @@
 }
 .main{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     flex-wrap: wrap;
 }
 .szonetop{
@@ -67,4 +67,8 @@ font-family: K2D;
 
 .change1{
   display: flex;
+}
+.subject img{
+  height:130px;
+  width:auto;
 }
