@@ -5,8 +5,7 @@
     height:200px;
     text-decoration: none;
     text-align: center;
-    margin: 5px auto;
-    aspect-ratio: 1/1;
+    margin: 10px auto;
     color: white;
     font-size:large;
     font-family: K2D;
@@ -20,11 +19,11 @@
 .szonetop{
     display: none;
 }
-@media only screen and (min-width:600px){ 
+@media only screen and (min-width:750px){ 
 .szonetop{
     display: flex;
     background-color: rgba(255, 255,255,0.1);
-    width:20%;
+    width:30%;
     margin:  20px auto;
     align-items: center;
     justify-content: space-around;
