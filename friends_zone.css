@@ -15,16 +15,18 @@
 } */
 .contain1{
   display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 #aibox{
  background-color: rgba(255, 255,255,0.3) ;
  height:150px;
- width:150px;
+ width: 150px;
+ text-decoration: none;
  padding:10px;
- display:flex;
- flex-direction: column;
  border-radius: 20%;
- margin:30px;
+ margin:15px;
  text-align: center;
  font-family: K2D;
  color:rgb(255, 255, 255);
@@ -36,9 +38,7 @@
   margin: auto;
   padding:3px;
 }
-#aibox p{
-  top: -3px;
-}
+
 .menu 
 {
   z-index: 98;
@@ -79,7 +79,7 @@ font-family: K2D;
   flex-direction: column;
   padding:10px;
   border-radius: 20%;
-  margin:30px;
+  margin:15px;
   text-align: center;
   color: aliceblue;
   font-size: large;
@@ -88,7 +88,6 @@ font-family: K2D;
 #memo img{
   height:100px;
   width:auto;
-
 }
 
 
