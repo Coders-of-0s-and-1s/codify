@@ -7,7 +7,7 @@ var i=0;
 let news=[];
 
 news.unshift("");
-news.unshift("");
+news.unshift("Happy Birthday Dhanasekar!!!");
 news.unshift("We decided to make some modifications in Codify in this sem holidays.So, if you have any suggestions pls post it in feedback...");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
