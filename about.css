@@ -74,3 +74,24 @@ font-family: K2D;
 .change1{
   display: flex;
 }
+#mem,center{
+    color: white;
+        font-family: K2D;
+        margin-left:20px;
+        font-size: larger;
+}
+#mem{
+    color:white;
+    text-indent: 40px;
+    text-align:justify;
+    line-height: 200%;
+    font-weight: 100;
+    font-family: K2D;
+    width:80%;
+    height: max-content;
+    margin: auto;
+    border-radius: 20px;
+    font-size: large;
+    padding: 5px;
+    background-color: rgba(255, 255,255,0.1);
+}

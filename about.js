@@ -4,6 +4,5 @@ function myFunction(x) {
       mbtn.classList.toggle("change1");
     }
 
-    let about="During the semester exam time we can't find the study materials, notes, also we missed some of the classes and we didn't know the right syllabus  and so we struggled a lot, so in order to overcome all these problems we decided to make a web hub called 'CODIFY'. With the help of this website you can easily able to find all important links and materials. So be sure to use this website. Also provide your valuable feedback for our improvement. Thanks a lot for visiting this website...";
+    let about="This website is designed purely based on the mindset of students. It is meant to be a one spot solution for the materials needed, maintaining proper attendance, link to other useful websites and to help with the preparations for viva voce, assignment, etc. The materials available are neatly organized based on the outcomes of the respective courses. This website was created to aid the students during examinations."
     document.getElementById("aboutb").innerHTML=about;
-   alert("Danger zone press ok to continue");
