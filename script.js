@@ -8,7 +8,7 @@ let news=[];
 
 news.unshift("");
 news.unshift("");
-news.unshift("We decided to make some modifications in Codify in this sem holidays.So, if you have any suggestions pls post it in feedback...");
+news.unshift("");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
