@@ -8,7 +8,7 @@ let news=[];
 
 news.unshift("");
 news.unshift("");
-news.unshift("IEEE recruitment today and tomorrow");
+news.unshift("");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
