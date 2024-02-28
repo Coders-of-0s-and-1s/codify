@@ -8,7 +8,7 @@ let news=[];
 
 news.unshift("");
 news.unshift("");
-news.unshift("");
+news.unshift("Test at hall 403");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
