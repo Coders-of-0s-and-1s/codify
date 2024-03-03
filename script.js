@@ -8,7 +8,7 @@ let news=[];
 
 news.unshift("");
 news.unshift("");
-news.unshift("Test at hall 403");
+news.unshift("Monday 4.3.2024 Signals and systems tutorial on system properties and discrete convolution");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
