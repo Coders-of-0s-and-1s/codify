@@ -6,7 +6,7 @@ function myFunction(x) {
 var i=0;
 let news=[];
 
-news.unshift("Happy Birthday Akash Shankar");
+news.unshift("");
 news.unshift("");
 news.unshift("");
 document.getElementById("news").innerHTML=news[i];
