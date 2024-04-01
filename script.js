@@ -8,7 +8,7 @@ let news=[];
 
 news.unshift("");
 news.unshift("");
-news.unshift("");
+news.unshift("Mock test for Indian constitution is held  Today at 4:30PM");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
