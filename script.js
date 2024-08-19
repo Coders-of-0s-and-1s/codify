@@ -8,7 +8,7 @@ let news=[];
 
 news.unshift("");
 news.unshift("");
-news.unshift("");
+news.unshift("PREVIOUS YEAR PAPERS ARE AVAILABLE IN STUDY ZONE..........");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
