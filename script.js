@@ -8,7 +8,7 @@ let news=[];
 
 news.unshift("");
 news.unshift("");
-news.unshift("OS & IOT PPT link - https://drive.google.com/drive/folders/1wTD81C-RHRg64-JgauHGry9k4AzebnIS?usp=share_link");
+news.unshift("");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
