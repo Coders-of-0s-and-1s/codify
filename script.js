@@ -9,6 +9,9 @@ let news=[];
 news.unshift("");
 news.unshift("");
 news.unshift("");
+news.unshift("");
+news.unshift("");
+news.unshift("Lets's celebrate sem 6 ........");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
