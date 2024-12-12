@@ -11,7 +11,7 @@ news.unshift("");
 news.unshift("");
 news.unshift("");
 news.unshift("");
-news.unshift("Lets's celebrate sem 6 ........");
+news.unshift("if you find any bugs in the website. kindly let us know through feedback");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
