@@ -5,7 +5,7 @@
     height:200px;
     text-decoration: none;
     text-align: center;
-    margin: 10px auto;
+    margin: 10px 10px;
     color: white;
     font-size:larger;
     font-family: K2D;
@@ -56,12 +56,14 @@
 .sub_top{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .szonetop{
     display: none;
 }
-@media screen and (width<600px){ 
-.szonetop{
+@media only screen and (min-width:600px){
+  .szonetop{
     display: flex;
     background-color: rgba(255, 255,255,0.1);
     width:30%;
@@ -81,14 +83,15 @@
   height:200px;
   text-decoration: none;
   text-align: center;
-  margin: 10px auto;
+  margin: 10px 10px;
   color: white;
   font-size:15px;
   font-family: K2D;
   background-color: rgba(255, 255,255,0.1);
 }
 .sem_details{
-  width:40%;
+  width: fit-content;
+  padding: 0 20px;
   height: 4%;
 }
 .main{
@@ -96,7 +99,9 @@
 }
 .sub_top{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .szonetop{
   width: 40%;
