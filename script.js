@@ -10,7 +10,6 @@ let news=[];
 // news.unshift("");
 // news.unshift("");
 news.unshift("if you find any bugs in the website. kindly let us know through feedback");
-news.unshift("Unfortunately there was an technical error in opening the sem5 notes, we arer working to resolve it");
 news.unshift("The notes for semester 7 has been updated in the subject");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
