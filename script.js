@@ -11,6 +11,7 @@ let news=[];
 // news.unshift("");
 news.unshift("if you find any bugs in the website. kindly let us know through feedback");
 news.unshift("The notes for semester 7 has been updated in the subject");
+news.unshift("Kindly use official mail ID for accessing the materials in the drive");
 document.getElementById("news").innerHTML=news[i];
 function nextnews(a){
   i=i+a; 
